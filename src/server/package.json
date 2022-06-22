@@ -21,12 +21,12 @@
     "migrate:revert": "ts-node ./node_modules/typeorm/cli.js migration:revert"
   },
   "dependencies": {
-    "@nestjs/common": "^5.4.0",
+    "@nestjs/common": "^8.0.7",
     "@nestjs/core": "^5.4.0",
     "@nestjs/microservices": "^5.4.0",
     "@nestjs/testing": "^5.4.0",
     "@nestjs/typeorm": "^5.2.2",
-    "@nestjs/websockets": "^5.4.0",
+    "@nestjs/websockets": "^6.0.0",
     "class-transformer": "^0.3.1",
     "class-validator": "^0.9.1",
     "dotenv": "^6.2.0",
@@ -35,7 +35,7 @@
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.3",
     "rxjs": "^6.3.3",
-    "typeorm": "^0.2.12"
+    "typeorm": "^0.2.25"
   },
   "devDependencies": {
     "@types/express": "^4.16.0",
